@@ -1,0 +1,91 @@
+
+* {
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 16px;
+	color: #FFF;
+	background-color: #AAA;
+}
+
+body {
+	text-align: center;
+	height: 100vh;
+	padding: 2rem;
+	background-image: url(../img/Charles.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-color: #AAA;
+}
+
+h1,
+p,
+a {
+	display: inline-block;
+	padding: 0.25rem 0.5rem;
+	background-color: #000;
+}
+
+h1 {
+	font-size: 1.3125rem;
+	font-family: 'Source Sans Pro', sans-serif;
+	letter-spacing: 1px;
+	margin: 0 0 2rem;
+}
+
+a,
+p {
+	font-size: 0.75rem;
+	font-family: 'Noto Sans', sans-serif;
+}
+
+a {
+	color: #FFF;
+}
+
+footer {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+}
+
+.copyright {
+	margin: 1rem 0 0.25rem;
+}
+
+/* MEDIA QUERIES */
+
+@media only screen and (min-width: 667px) {	
+	h1 {
+		font-size: 1.5rem;
+	}
+
+	a,
+	p	{
+		font-size: 1rem;
+	}
+
+	.copyright {
+		font-size: 0.75rem;
+	}
+}
+
+@media only screen and (min-width: 1149px) {	
+	h1 {
+		font-size: 2.25rem;
+	}
+
+	p {
+		font-size: 1.25rem;
+	}
+	.main-content {
+		position: absolute;
+		top: 45%;
+		right: 0;
+		left: 0;
+	}
+}
+
